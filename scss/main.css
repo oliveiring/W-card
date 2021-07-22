@@ -81,7 +81,7 @@ body {
 }
 
 .grid-items .items div:last-child {
-  padding-top: 2rem;
+  padding-top: 5rem;
 }
 
 .grid-items .items:nth-child(1) {
