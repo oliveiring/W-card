@@ -17,7 +17,6 @@ $colors:(
 body{
   height: 100%;
   font-size: 15px;
-  font-weight: 400;
   font-family: 'Lexend Deca', sans-serif;
   background: color(everywhere-color);
 }
@@ -67,16 +66,23 @@ body{
   font-size: 1rem;
   .items{
     padding:1.5rem 2rem;
-    height: 400px;
+    height: 450px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
     div{
       h2{
         padding: 1rem 0;
         text-transform: uppercase;
-        font-size: 1.8rem;
+        font-size: 2rem;
       }
       p{
         line-height: 1.4rem;
       }
+    
+
     }
     div:last-child{
       padding-top:2rem;
@@ -93,6 +99,7 @@ body{
     background: color(very-dark-cyan);
     
   }
+
 }
 
 //Media Queries

@@ -8,7 +8,6 @@
 body {
   height: 100%;
   font-size: 15px;
-  font-weight: 400;
   font-family: 'Lexend Deca', sans-serif;
   background: #f2f2f2;
 }
@@ -63,13 +62,18 @@ body {
 
 .grid-items .items {
   padding: 1.5rem 2rem;
-  height: 400px;
+  height: 450px;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
 }
 
 .grid-items .items div h2 {
   padding: 1rem 0;
   text-transform: uppercase;
-  font-size: 1.8rem;
+  font-size: 2rem;
 }
 
 .grid-items .items div p {
